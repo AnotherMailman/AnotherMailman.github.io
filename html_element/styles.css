@@ -1,10 +1,14 @@
 body {
     background-color:brown
 }
-
-table{
-    border: 1px;
-    width: 400px;
-
+#mindiv{
+    padding: 50px;
 }
-.hundar{}
+table, th, td {
+    border: 1px solid black;
+    width: 400px;
+}
+
+.hundar {
+    width: 100px;
+}
