@@ -1,0 +1,19 @@
+body{
+background-color: aliceblue;
+
+}
+
+button{
+    padding: 10px;
+    margin: 10p;
+    width: 20px;
+}
+h3{
+margin-left:5px;
+}
+.taltext{
+    margin-left: 19px;
+}
+.base{
+    margin-left: 200px;
+}
