@@ -1,3 +1,20 @@
 body{
-    background-color: blanchedalmond;
+    background-color:deepskyblue;
+    font-family:Times cursive
+}
+h2{
+    padding: 5px;
+    background-color:white;
+    text-align: center;
+    border-radius: 5px;
+}
+p{
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.forestallning{
+    width: 600px;
+    border-radius: 5px;
+    
 }
