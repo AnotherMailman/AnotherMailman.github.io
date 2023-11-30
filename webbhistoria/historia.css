@@ -1,6 +1,7 @@
 body{
     background-color:deepskyblue;
-    font-family:Times cursive
+    font-family:Times cursive;
+    
 }
 h2{
     padding: 5px;
@@ -14,7 +15,7 @@ p{
     border-radius: 5px;
 }
 .forestallning{
-    width: 600px;
+    width: 750px;
     border-radius: 5px;
     
 }
