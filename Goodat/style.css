@@ -1,0 +1,22 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h2 {
+    margin-right: 75%;
+    margin-left: 0px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+ol {
+    margin-right: 85%;
+    background-color: white;
+    border-radius: 8px;
+}
+button {
+    background-color: white;
+    
+}
+
