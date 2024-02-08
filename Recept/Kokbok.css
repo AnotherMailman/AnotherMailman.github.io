@@ -1,0 +1,72 @@
+body {
+    background-color: seashell;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: maroon;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: maroon;
+}
+
+.Horizontal {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 200px;
+
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: seashell;
+    margin-top: 30px;
+    display: block;
+    padding: 10px 24px;
+    border-radius: 2px;
+    border: 3px solid maroon;
+    color: maroon;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: maroon;
+    color: seashell;
+    width: 500px;
+}
+
+.Bolognese {
+    float: right;
+    margin: 0 150px 0 15px;
+    width: 450px;
+    border-radius: 2px;
+}
+
+.Gulashsoppa {
+    float: right;
+    margin: 0 200px 0 15px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+.BolognesePopup {
+    display: none;
+    border-radius: 2px;
+}
+
+.GulashsoppaPopup {
+    display: none;
+    border-radius: 2px;
+}
+
+
+.spaghettiButton:hover+.BolognesePopup {
+    display: block;
+    width: 500px;
+}
+
+.gulashButton:hover+.GulashsoppaPopup {
+    display: block;
+    width: 500px;
+}
