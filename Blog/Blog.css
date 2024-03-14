@@ -1,0 +1,44 @@
+body {
+    background-color: ghostwhite;
+    color: rgb(69, 69, 69);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+
+}
+
+button {
+    background-color: ghostwhite;
+    color: rgb(69, 69, 69);
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid rgb(69, 69, 69);
+    transition-duration: 0.1s;
+}
+
+button:hover {
+    background-color: rgb(69, 69, 69);
+    color:ghostwhite;
+}
+
+.Selected {
+    background-color: rgb(69, 69, 69);
+    color:ghostwhite;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+}

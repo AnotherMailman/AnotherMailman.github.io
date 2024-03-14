@@ -1,18 +1,24 @@
 function gammalDirect() {
-    window.location.replace("Gammalsida/index.html")
+    window.open("../Gammalsida/index.html")
 }
 function gissaDirect() {
-    window.location.replace("Gissa/Gissa.htm")
+    window.open("../Gissa/Gissa.htm")
 }
 function gridDirect() {
-    window.location.replace("Gridtest/grid.html")
+    window.open("../Gridtest/grid.html")
 }
 function htmlDirect() {
-    window.location.replace("html_element/index.html")
+    window.open("../html_element/index.html")
 }
 function knappenDirect() {
-    window.location.replace("Knappen/Knappen.html")
+    window.open("../Knappen/Knappen.html")
 }
 function webbDirect() {
-    window.location.replace("webbhistoria/historia.html")
+    window.open("../webbhistoria/historia.html")
+}
+function pixarDirect() {
+    window.open("../Pixar/Pixar.html")
+}
+function receptDirect() {
+    window.open("../Recept/Kokbok.html")
 }

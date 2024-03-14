@@ -1,14 +1,10 @@
-body{
-}
+
 .Logo {
     display: block;
     margin-right: auto;
     margin-left: auto;
     width: 450px;
 }
-
-hr {}
-
 h1 {
     color: rgb(170, 0, 0);
     text-align: center;
@@ -24,13 +20,6 @@ h5 {
     grid-template-columns: auto auto auto auto auto auto auto;
     grid-template-rows: 140px;
     
-}
-
-.Lefty{
-padding-left: 100px;
-}
-.Righty{
-padding-right: 100px;
 }
 .Icon {
     width: 100px;
