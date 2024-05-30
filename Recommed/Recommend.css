@@ -1,0 +1,53 @@
+body {
+    background-image: url(Papor.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-content {
+    display: grid;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+button {
+    background-color: blanchedalmond;
+    width: 33.3%;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px;
+    transition-duration: 0.1s;
+}
+
+.Lefty {
+    border-bottom-left-radius: 10px;
+}
+
+.Righty {
+    border-bottom-right-radius: 10px;
+}
+
+button:hover {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+    width: 29%;
+}
+
+p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,15 @@
+div {
+    background-color: red;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 100px;
+    width: 100px;
+    animation: prism 20s linear 0s infinite;
+}
+
+@keyframes prism {
+    0% {background-color: red;}
+    34% {background-color: green;}
+    67% {background-color: blue;}
+    100% {background-color: red}
+}

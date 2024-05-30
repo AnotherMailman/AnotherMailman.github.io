@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(245, 217, 154);
+}
+
+.main-content {
+    display: grid;
+
+}
+
+.wall {
+    background-image: url(Steelwarp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 100%;
+    margin: -8px;
+    padding: 8px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 208, 127);
+    color:rgb(215, 0, 0);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 220px;
+    margin-top: -16px;
+    height: 24px;
+    border: 2px;
+}
+
+#Footnote {
+    background-color: gold;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    width: 60px;
+    margin-top: -12px;
+    margin-left: 8px;
+    height: 20px;
+    border: 2px;
+    transition-duration: 0.5s;
+}
+
+#Footnote:hover {
+    margin-top: -20px;
+    height: 28px;
+
+}
+
+#Subject {
+    margin-left: -8px;
+}
+
+#Case2 {}
+
+#Case3 {}
+
+.Chosen {
+    background-color: rgb(243, 208, 127);
+}
+
+#Classified {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+margin-top: 50px
+}

@@ -1,0 +1,40 @@
+body {
+    background-color:black;
+}
+
+.main-content {
+    display: grid;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    margin-top: -8px;
+    border-style: solid;
+    background-color:black;
+    width: 27%;
+    transition-duration: 0.75s;
+}
+button:hover{
+    background-color:darkgoldenrod;
+    color: black
+}
+.Lefty {
+    margin-left: -8px;
+}
+
+.Righty {
+    margin-right: -8px;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
